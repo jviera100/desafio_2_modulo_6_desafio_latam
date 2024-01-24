@@ -1,0 +1,332 @@
+/* Reset de estilos para todos los elementos */
+* 
+{
+  margin: 0; /*margen*/
+  padding: 0; /*espacio entre elementos*/
+  border: 0;    /*borde*/
+}
+
+
+@media (min-width: 1280px) 
+{
+
+body 
+{
+  font-family: 'Cabin', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#fuente 
+{  
+  font-family: 'Lobster', sans-serif;
+}
+
+#menu 
+{
+  background-color: #373a3c
+  color(from #dddddd)
+}
+
+/* Estilo para la sección de Descripción */
+.description 
+{
+  display: flex; /*alineacion flexible*/
+  flex-wrap: wrap; /* Permitir envolver a la siguiente línea */
+  align-items: center; /* Centrar verticalmente los elementos */
+  margin-top: 30px; /*margen superior*/
+  font-size: 40px; /*tamaño letra*/
+  max-width: 100%; /* Ajuste al ancho máximo */
+  padding: 50px; /*espacio entre elementos*/
+  box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+  list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+
+.description ul 
+{
+  flex:inherit; /* Ocupar todo el espacio disponible en la línea */
+  margin-right: 100px; /* Espaciado entre la descripción y la imagen */
+
+  
+}
+
+
+.description li img 
+{
+  width: 100%; /* La imagen ocupará el 100% del contenedor */
+  max-width: 500px; /* Establecer un ancho máximo para la imagen */
+  height: auto; /*altura automatica*/
+  box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+  margin-left: 25%; /* Establecer margen izquierdo automático */
+  margin-right: 0; /* Establecer margen derecho a 0 */
+}
+
+.container button /* distancia entre botones y margen del boton*/
+{
+  padding: 10px 25px; 
+  margin: 10px;
+  font-size: 14px;
+}
+
+.container span /* distancia entre botones y margen del boton*/
+{
+  font-size: 40px;
+}
+
+.container img /* distancia entre botones y margen del boton*/
+{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+/* Cambiar el diseño de las barras por puntos en el carrusel en Bootstrap 5 */
+.carousel-indicators [data-bs-target] 
+{
+  border-radius: 50%;
+  width: 8px; /* Ajusta el tamaño de los puntos según tu preferencia */
+  height: 8px;
+  background-color: #fff;
+  border: 1px solid #000;
+  opacity: 0.5; /* Opacidad de los puntos inactivos */
+  transition: opacity 0.6s ease;
+}
+
+
+.carousel-indicators 
+{
+  top: auto; /* Elimina la propiedad 'top' para que los puntos estén alineados en la parte inferior */
+  bottom: -50px; /* Ajusta la posición vertical de los puntos según tu preferencia */
+  left: 35%; /* Centra los puntos horizontalmente */
+  transform: translateX(-50%); /* Centra los puntos horizontalmente */
+}
+
+.carousel-indicators .active 
+{
+  width: 10px; /* Ajusta el tamaño del punto activo según tu preferencia */
+  height: 10px;
+  background-color: #000;
+  opacity: 1; /* Punto activo completamente visible */
+}
+
+#form 
+{
+  background-color: #dc3545
+  color(srgb #dddddd)
+}
+footer 
+{
+  background-color: #373a3c
+  color(srgb #dddddd)
+  
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  font-size: 37px;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  padding-bottom: 38px;
+  padding-left: 571.5px;
+  padding-right: 571.5px;
+  padding-top: 15px;
+}
+
+.hr-descripcion /* Estilo linea horizontal abajo de la descripcion*/
+{
+  border: 2px solid #000; /* Puedes ajustar el grosor y el color según tus preferencias */
+  width: 430px;
+  margin-left: 130px; /* Ajusta el espacio alrededor del hr */
+  
+}
+
+.titulo-receta-sup /* Estilo para el titulo receta antes del hr*/
+{
+  list-style-type: none; /* Elimina los puntos de la lista */
+  margin: 0; /* Elimina el margen predeterminado de la lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+.titulo-receta-inf /* Estilo para el titulo despues del hr */
+{
+  list-style-type: none; /* Elimina los puntos de la lista */
+  margin: 0; /* Elimina el margen predeterminado de la lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+.titulo-receta-sup span /* Estilo para cada span del titulo receta */
+{
+  display: block; /* Cada línea en un bloque separado */
+  margin-bottom: 5px; /* Espaciado entre líneas */
+  margin-left: 100px;
+  padding-left: 30px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.titulo-receta-inf span /* Estilo para cada span del titulo receta */
+{
+  display: block; /* Cada línea en un bloque separado */
+  margin-bottom: 5px; /* Espaciado entre líneas */
+  margin-left: 100px;
+  padding-left: 30px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-deck /* seperacion superior */
+{
+  margin-top: 50px; 
+}
+
+/* ZONA DE PRUEBA*/
+h3 {
+  font-size: 20px;
+  text-decoration: none;
+  width: 145px;
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  letter-spacing: 0.6px;
+}
+ul {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+}
+li {
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  font-weight: normal;
+  line-height: 30px;
+}
+h2.display-4 {
+  font-size: 40px !important;
+  margin-top: 22.5px;
+  margin-bottom: 50.5px;
+}
+h5.card-title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  margin-top: 23px;
+}
+div.card-body {
+  padding-top: 0px;
+  padding-left: 19.52px;
+  padding-right: 19.52px;
+  padding-bottom: 33.81px;
+}
+
+/* ZONA DE PRUEBA*/
+
+.tarjeta
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+.newsletter /* dimensiones newsletter */
+{
+  padding-top: 150.5px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 197px;
+}
+
+h2.suscribete /* estilo: suscribete a nuestro newsletter*/
+{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.newsletter h3 /* estilo: obten las mejores recetas*/
+{
+  width: 100%;
+  font-family: "Cabin", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 39.5px;
+  text-decoration: none;
+  border-bottom: 0px;
+}
+
+.news /* ajusta texto form horizontal */
+{
+  width: 980px;
+}
+
+.newsletter h3 span /* estilo RICOMIDA */
+{
+  font-size: 30px ;
+}
+
+.newsletter span /* estilo RICOMIDA */
+{
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+.empezar  /* estilo: boton empezar*/
+{
+  width: 233px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+a.nav-link /* ajusta tamaño inicio, recetas, nosotros, contacto*/
+{
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Cabin", sans-serif;
+  font-weight: normal;
+}
+
+.hr-top 
+{
+  display: none;
+}
+
+hr 
+{
+  margin-top: 7.5px;
+  margin-bottom: 17px;
+  height: 1pt;
+  background-color: #000000 !important;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+
+.hr-bottom /* estilo de hr debajo de la receta */
+{
+  margin-top: 0px;
+  margin-bottom: 38px;
+  background-color: #333a40;
+}
+
+
+.receta /* estilo seccion receta*/
+{
+  padding-top: 20.32px;
+  font-size: 20px;
+  font-family: "Cabin", sans-serif;
+  background-color: #ffffff;
+}
+
+
+}

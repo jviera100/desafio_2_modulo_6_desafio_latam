@@ -12,6 +12,11 @@
 q + enter: cuando ves END y no te deja escribir, ahora te dejara escribir
 - git status : muestra si haz hecho cambios y si haz guardado
 - git remote add origin git@github.com:usuario/nombre-archivo.git : vincular repositorio local con repositorio remoto
-- git push -u origin main : subes archivos
+- git push -u origin main : subes archivos y pone contraseña
 - git pull -u origin main : bajas archivos
 - git branch -M main : cambio nombre de rama de master a main
+- git remote -v : se utiliza para mostrar los nombres de los repositorios remotos y sus URLs correspondientes
+- git fetch se utiliza para recuperar los cambios del repositorio remoto y actualizar el repositorio local sin fusionar los cambios.
+- icono repositorio : entras a pagina https://gist.github.com/parmentf/035de27d6ed1dce0b36a y copias el titulo del icono que elijas y lo pones en el nombre de tu repositorio que pones en el terminal asi, ejemplo:
+           git commit -m :sparkles:"Nombre o descripción del commit"
+- git push -f origin main : No se recomienda utilizar este comando, ya que puede causar la pérdida de datos y la corrupción del historial de versiones, hay formas arreglar eso sin forzarlo pero hay que utilizar algo que se llama rebase
