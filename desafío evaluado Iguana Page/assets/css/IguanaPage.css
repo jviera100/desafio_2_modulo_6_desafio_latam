@@ -1,0 +1,131 @@
+/* Reset de estilos para todos los elementos */
+* {
+    margin: 0; /*margen*/
+    padding: 0; /*espacio entre elementos*/
+    border: 0;    /*borde*/
+}
+
+/* Estilos Generales */
+body {
+    margin: 0; /*margen*/
+    padding: 0; /*espacio entre elementos*/
+    background-color: #000000; /*color de fondo*/
+    font-family: 'Raleway', sans-serif; /*estilo de letra*/
+    color: #FFFFFF; /* Color del texto principal */
+    text-align: left; /*texto alineado a la izquierda*/
+    padding: 0; /* Eliminado duplicado de padding */
+    max-width: 100%; /* Establecer un ancho máximo */
+    overflow-x: hidden; /* Evitar la barra de desplazamiento horizontal */
+}
+
+.oscuro {
+    background-color: #000000; /*color de fondo*/
+    color: #FFFFFF; /* Color del texto en el modo oscuro */
+    padding: 20px 20px; /*espacio entre elementos*/
+    text-align: center; /*texto alineado al centro*/
+    font-size: 100px; /*tamaño letra*/
+    max-width: 2400px; /*maximo ancho*/
+    margin: 0 auto; /* Centrar el contenido */
+}
+
+li {
+    list-style: none; /* Sin decoración de texto */
+    display: inline-block;  /* Muestra los elementos en línea, uno al lado del otro */
+    margin-left: 20px;  /* margen izquierdo */
+}
+
+li a {
+    text-decoration: none; /* Sin decoración de texto */
+    color: #FFFFFF; /* Color del texto en los enlaces del menú */
+    font-size: 50px; /*tamaño letra*/
+}
+
+/* Estilo para la sección de Descripción */
+.description {
+    display: flex; /*alineacion flexible*/
+    flex-wrap: wrap; /* Permitir envolver a la siguiente línea */
+    align-items: center; /* Centrar verticalmente los elementos */
+    margin-top: 20px; /*margen superior*/
+    font-size: 20px; /*tamaño letra*/
+    max-width: 100%; /* Ajuste al ancho máximo */
+    padding: 50px; /*espacio entre elementos*/
+    box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+}
+
+.description ul {
+    flex: 1; /* Ocupar todo el espacio disponible en la línea */
+    margin-right: 20px; /* Espaciado entre la descripción y la imagen */
+}
+
+.description li img {
+    width: 100%; /* La imagen ocupará el 100% del contenedor */
+    max-width: 400px; /* Establecer un ancho máximo para la imagen */
+    height: auto; /*altura automatica*/
+    box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+}
+
+/* Estilo para la sección de Iconos */
+.caracteristicas {
+    font-size: 40px; /*tamaño letra*/
+    padding: 20px; /*espacio entre elementos*/
+    max-width: 100%; /* Ajuste al ancho máximo */
+    box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+    text-align: center; /*texto alineado al centro*/
+}
+
+.iconos {
+    display: flex; /*alineacion flexible*/
+    font-size: 50px; /*tamaño letra*/
+    margin-right: 20px; /*margen derecho*/
+    padding: 20px; /*espacio entre elementos*/
+    text-align: center; /*texto alineado al centro*/
+    background-color: #1E1E1E; /*color de fondo*/
+    max-width: 100%; /* Ajuste al ancho máximo */
+    box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+    margin: 0 auto; /* Centrar el contenido */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.iconos div {
+    margin: 0 20px; /* Ajuste del margen */
+    color: inherit; /* Heredar el color del texto (debe ser blanco según la configuración general) */
+}
+
+.iconos [class^="fa-"] {
+    color: #FFFFFF ; /* Color blanco para los iconos */
+}
+
+.iconos h3 {
+    margin-top: 10px; /*margen superior*/
+    font-size: 20px; /*tamaño letra*/
+    color: #FFFFFF; /* Color blanco para el texto */
+}
+
+/* Estilo para la sección de Iguanas */
+.iguanas {
+    display: flex; /*alineacion flexible*/
+    flex-wrap: wrap; /* Permitir envolver a la siguiente línea */
+    margin: 20px 0; /*margen*/
+    padding: 10px; /*espacio entre elementos*/
+    max-width: 100%; /* Ajuste al ancho máximo */
+    box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.iguanas img {
+    width: 100%; /* La imagen ocupará el 100% del contenedor */
+    max-width: 400px; /* Establecer un ancho máximo para la imagen */
+    height: auto; /*altura automatica*/
+    padding: 10px; /*espacio entre elementos*/
+    box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+}
+
+/* Estilo para el Pie de Página */
+.footer {
+    background-color: #1E1E1E; /*color de fondo*/
+    text-align: center; /*texto alineado al centro*/
+    padding: 20px; /*espacio entre elementos*/
+    max-width: 100%; /* Ajuste al ancho máximo */
+    box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+    margin: 0 auto; /* Centrar el contenido */
+}

@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto', sans-serif;;
+}
+nav {
+  background-color: #28a745;
+  color: #ffffff;
+}
+h5 {
+  color: #212529;
+}
+p {
+  color: #707070;
+}
+#precio1 {
+  color: #707070;
+}
+#precio2 {
+  color: #28a745;
+}
+p.card-text {
+  color: #707070;
+}
+section.container {
+  background-color: #F8F9FA;
+}
+footer {
+  background-color: #F8F9FA;
+}

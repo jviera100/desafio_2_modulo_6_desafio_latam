@@ -1,0 +1,46 @@
+/* Estilos Generales */
+body {
+    background-color: turquoise; /* Color de fondo del cuerpo */
+    color: white; /* Color del texto del cuerpo */
+    font-family: Arial, Helvetica, sans-serif; /* Fuente del texto */
+    font-weight: 100; /* Grosor de la fuente */
+    font-style: italic; /* Estilo de la fuente (cursiva) */
+    font-size: 50px; /* Tamaño de fuente */
+    margin-left: 800px; /* Margen izquierdo */
+    max-width: 1800px; /* Ancho máximo permitido */
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block; /* Configura la visualización de la imagen como bloque para centrarla */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    text-align: center; /* Alineación del texto al centro */
+    padding: 20px; /* Espaciado interno en el encabezado */
+    color: black; /* Color del texto del encabezado */
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+    text-align: center; /* Alineación del texto al centro */
+    padding: 20px; /* Espaciado interno en el pie de página */
+}
+
+/* Estilos específicos para la sección de experiencia */
+section.experiencia h3#experiencia {
+    color: green; /* Color del texto para el encabezado 'experiencia' dentro de la sección experiencia */
+}
+
+/* Estilos generales para todos los encabezados h3 dentro de secciones */
+section h3 {
+    color: black; /* Color del texto para todos los encabezados h3 dentro de secciones */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos adicionales para el encabezado (header) */
+header {
+    color: black; /* Color del texto del encabezado */
+}

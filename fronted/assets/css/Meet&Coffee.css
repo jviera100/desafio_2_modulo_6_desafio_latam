@@ -1,0 +1,163 @@
+/* Reset de estilos para todos los elementos */
+* {
+  margin: 0;
+  padding: 0; /*espacio entre elementos*/
+  border: 0;
+}
+
+/* Estilos generales del cuerpo del documento */
+body {
+  text-align: center;  /* Alineación del texto al centro */
+  color: #000f08;  /* Color del texto */
+  font-family: "Open Sans";  /* Fuente del texto */
+}
+
+/* Estilos de la barra de navegación */
+nav {
+  background-color: #000f08;  /* Color de fondo de la barra de navegación */
+  color: white;  /* Color del texto en la barra de navegación */
+  text-align: left;  /* Alineación del texto en la barra de navegación */
+  padding: 20px 120px;  /* Espaciado interno de la barra de navegación */
+  font-size: 25px;  /* Tamaño de fuente en la barra de navegación */
+}
+
+/* Estilos del menú de navegación */
+nav li {
+  display: inline-block;  /* Muestra los elementos en línea, uno al lado del otro */
+  vertical-align: middle;  /* Alineación vertical al centro */
+  margin-right: 60px;  /* Margen derecho entre elementos del menú */
+}
+
+nav li a {
+  color: white;  /* Color del texto de los enlaces en el menú de navegación */
+  text-decoration: none;  /* Sin decoración de texto en los enlaces */
+  margin-right: 60px; /* margen derecho */
+}
+svg {
+  fill: white;   /* Color de relleno del contenido del elemento SVG (puedes cambiar 'white' a otro color) */
+  width: 24px;    /* Ancho del elemento SVG */
+  height: 24px;   /* Altura del elemento SVG */
+}
+
+/* Estilos de la sección de héroe (header) */
+header {
+  background-image: url("../img/bg-hero.png");  /* Imagen de fondo */
+  background-repeat: no-repeat;  /* No repetir la imagen de fondo */
+  background-size: cover;  /* Ajustar la imagen de fondo al tamaño del contenedor */
+  color: white;  /* Color del texto en la sección de héroe */
+  padding: 100px;  /* Espaciado interno en la sección de héroe */
+  text-shadow: 0px 3px 6px #00000080;  /* Sombra del texto */
+  width: 100%; /* ancho */
+  height: 400px; /* alto */
+}
+
+/* Estilos de los encabezados en la sección de héroe */
+header h1 {
+  text-align: center; /*texto alineado al centro*/
+  font-size: 60px;  /* Tamaño de fuente del título principal */
+  font-weight: 900;  /* Grosor de la fuente */
+}
+
+header h2 {
+  font-size: 40px;  /* Tamaño de fuente para subtítulos en la sección de héroe */
+  font-weight: 400;  /* Grosor de la fuente */
+}
+
+/* Estilos de la sección de ubicación */
+#ubicacion {
+  padding: 150px;  /* Espaciado interno en la sección de ubicación */
+}
+
+#ubicacion h2 {
+  font-size: 45px;  /* Tamaño de fuente para el título en la sección de ubicación */
+  margin: 40px 0px 20px 0px;  /* Márgenes del título */
+}
+
+#ubicacion p {
+  font-size: 25px;  /* Tamaño de fuente para el texto en la sección de ubicación */
+}
+
+/* Estilos de la sección de próxima charla */
+#proxima-charla {
+  background: #a4452c;  /* Color de fondo en la sección de próxima charla */
+  padding: 100px;  /* Espaciado interno en la sección de próxima charla */
+  color: white;  /* Color del texto en la sección de próxima charla */
+}
+
+#proxima-charla img {
+  height: 400px;  /* Altura de las imágenes en la sección de próxima charla */
+}
+
+#proxima-charla img, .texto {
+  display: inline-block;  /* Muestra imágenes y texto en línea */
+  vertical-align: middle;  /* Alineación vertical al centro */
+}
+
+#proxima-charla .texto {
+  text-align: left;  /* Alineación del texto a la izquierda */
+  width: 40%;  /* Ancho del bloque de texto */
+  margin-left: 40px;  /* Margen izquierdo del bloque de texto */
+}
+
+#proxima-charla .texto h3 {
+  font-size: 45px;  /* Tamaño de fuente para el título en la sección de próxima charla */
+}
+
+#proxima-charla .texto h4 {
+  font-size: 40px;  /* Tamaño de fuente para subtítulos en la sección de próxima charla */
+  padding-bottom: 10px;  /* Espaciado inferior para subtítulos */
+}
+
+#proxima-charla .texto h6 {
+  font-size: 33px;  /* Tamaño de fuente para subtítulos más pequeños */
+}
+
+#proxima-charla .texto span {
+  font-size: 20px;  /* Tamaño de fuente para texto pequeño en la sección de próxima charla */
+}
+
+#proxima-charla .texto p {
+  font-size: 25px;  /* Tamaño de fuente para el texto principal en la sección de próxima charla */
+}
+
+#proxima-charla .texto h6, span, p {
+  font-weight: 400;  /* Grosor de la fuente para varios elementos de texto */
+}
+
+/* Estilos de la sección de eventos */
+#eventos {
+  padding: 100px;  /* Espaciado interno en la sección de eventos */
+}
+
+#eventos h2 {
+  font-size: 45px;  /* Tamaño de fuente para el título en la sección de eventos */
+  margin-bottom: 50px;  /* Margen inferior para el título */
+}
+
+#eventos article {
+  display: inline-block;  /* Muestra artículos en línea, uno al lado del otro */
+  margin: 0px 50px;  /* Márgenes entre artículos en la sección de eventos */
+  font-size: 35px;  /* Tamaño de fuente para el contenido de los artículos */
+}
+
+#eventos article img {
+  margin-bottom: 45px;  /* Margen inferior para las imágenes de los artículos */
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #000f08;  /* Color de fondo del pie de página */
+  color: white;  /* Color del texto en el pie de página */
+  padding: 120px 100px 100px 100px;  /* Espaciado interno en el pie de página */
+  font-size: 25px;  /* Tamaño de fuente en el pie de página */
+}
+
+footer a {
+  color: white;  /* Color del texto de los enlaces en el pie de página */
+  margin: 0px 20px;  /* Márgenes entre enlaces en el pie de página */
+  text-decoration: none;  /* Sin decoración de texto */
+}
+
+footer p {
+  margin-top: 40px;  /* Margen superior para el texto en el pie de página */
+}

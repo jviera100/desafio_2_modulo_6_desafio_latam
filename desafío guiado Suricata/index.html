@@ -1,0 +1,306 @@
+<!DOCTYPE html><!-- Definición del tipo de documento -->
+<html lang="es" dir="ltr"><!-- idioma -->
+
+<head>
+  <!-- Configuración del documento -->
+  <meta charset="utf-8" /> <!-- Se establece la codificación del documento -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> <!-- Se configura la escala inicial en dispositivos móviles -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/><!-- compatibilizar con navegador web -->
+
+    <!-- Enlace Bootstrap. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+     <!-- Metadatos para SEO --> 
+  <title>Desafío Suricata</title><!-- Título de la pestaña del navegador web -->
+  <meta name="autor" content="Giovanni Di Rosa" /><!-- Nombre del autor del documento -->
+  <meta name="description" content="Nuestros aspectos" /><!-- Descripción del contenido del sitio -->
+  <meta name="keywords" content="colaciones, desayunos, bebidas, verduras, dulces, empanadas" /><!-- Palabras clave para motores de búsqueda -->
+  
+  <!-- Enlaces a estilo CSS y favicon -->
+  <link rel="stylesheet" href="assets/css/style.css" /><!-- Enlace a la hoja de estilo personalizada -->
+  <link rel="shortcut icon" href="./assets/img/favicom.png" type="favicon.png"> <!-- Enlace al ícono de la pestaña del navegador -->
+
+  <!-- Enlace al estilo de iconos de FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <!-- Enlace al estilo de iconos de FontAwesome -->
+
+  <!-- Enlace a la fuente de letra -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+  <!-- Enlace a la fuente de letra -->
+
+   <!-- Enlace de kit para utilizar íconos de FontAwesome -->
+   <script src="https://kit.fontawesome.com/168d9f7fae.js" crossorigin="anonymous"></script> 
+   <!-- Enlace de kit para utilizar íconos de FontAwesome -->
+
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top"> 
+  <!--navbar-expand-lg indica que la barra de navegación se expandirá en dispositivos grandes. -->
+  <!-- navbar-light establece el fondo claro y letras oscuras. -->
+   <!-- fixed-top fija la barra de navegación en la parte superior de la página. -->   
+  <div class="container px-4">    <!-- Contenedor con padding horizontal -->
+    <a class="navbar-brand" href="#"> <!-- Logo de la marca en la esquina superior izquierda -->
+      <img src="assets/img/logo.png" alt="logo de suricata" />
+    </a>
+    <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <!-- navbar-toggler y navbar-dark border-light son estilos para el botón de hamburguesa. -->
+      <!-- Botón de hamburguesa para dispositivos móviles -->
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!--  collapse navbar-collapse agrupa y oculta los elementos de la barra de navegación en dispositivos pequeños.-->
+      <ul class="navbar-nav ms-auto">
+        <!-- navbar-nav define una lista de elementos de navegación.-->
+        <!--ms-auto coloca los elementos restantes en el margen derecho. -->
+        <li class="nav-item active">
+          <!-- nav-item define un elemento individual en la barra de navegación. -->
+          <!-- active elemento de navegación activo -->
+          <a class="nav-link text-light" href="#">Inicio <span class="sr-only">(current)</span></a>
+          <!-- Enlace a la página de inicio con texto blanco -->
+          <!-- sr-only oculta el texto solo visualmente y es accesible para lectores de pantalla. -->
+        </li>
+        <li class="nav-item">
+          <!-- Otro elemento de navegación -->
+          <a class="nav-link text-light" href="#">Productos</a>
+          <!-- Enlace a la página de productos con texto blanco -->
+          <!-- text-light establece el color del texto como blanco. -->
+        </li>
+        <li class="nav-item">
+          <!-- Otro elemento de navegación -->
+          <a class="nav-link text-light" href="#">Contacto</a>
+          <!-- Enlace a la página de contacto con texto blanco -->
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Este código crea una sección de cartas de productos utilizando Bootstrap.  -->
+  <section class="container" id="productos">
+    <!-- text-center: Centra el texto dentro del elemento al que se aplica. En este caso, 
+      centra el texto horizontalmente en la página. -->
+    <h1 class=" text-center">Nuestros Productos</h1>
+    <!--text-center: Centra el texto dentro del elemento al que se aplica. En este caso, 
+      centra el texto horizontalmente en la página.-->
+    <div class="row">
+      <!--row: Define una fila en la cuadrícula de Bootstrap. Las filas se utilizan para
+         organizar y alinear columnas.-->
+
+      <!-- primera -->
+      
+      <div class="col-sm-4 col-12 px-5 mb-4">
+        <!-- “col-sm-4 col-12 px-5 mb-4” se utiliza para definir el ancho de una columna 
+          La clase “col-sm-4” define el ancho, ocupando 4 de 12 columnas en dispositivos pequeños (sm), 
+          mientras que la clase “col-12” define ocupar todo el ancho de la columna en dispositivos grandes. 
+          La clase “px-5” define el padding horizontal de la columna y la clase “mb-4” define 
+          el margen inferior de la columna -->
+        <div class="card">
+          <!--card: En Bootstrap, define un contenedor de tarjeta que agrupa elementos como imágenes, 
+            títulos y texto para representar información relacionada.-->
+          <img src="assets/img/colaciones.jpg" class="card-img-top" alt="colaciones" />
+          <!-- card-img-top: Es una clase de Bootstrap que se aplica a la imagen dentro de un componente de 
+            tarjeta (card). Esta clase coloca la imagen en la parte superior de la tarjeta, permitiendo que
+             la imagen sea la parte principal y prominente de la tarjeta. Es comúnmente utilizada para 
+             destacar visualmente el contenido visual en una tarjeta, como una imagen representativa del 
+             producto o tema asociado a la tarjeta.-->
+          <div class="card-body">
+            <!--card-body: Es el cuerpo de la tarjeta y se utiliza para contener el contenido principal de
+               la tarjeta, como texto, listas o enlaces.-->
+            <h5 class="card-title fw-bold">Colaciones</h5>
+            <!--card-title fw-bold: Define el título de la tarjeta con un formato de texto en negrita (fw-bold).-->
+            <p class="card-text">
+              <!--card-text: Se utiliza para el texto principal dentro del cuerpo de la tarjeta. Aquí es donde
+                 se coloca la descripción o contenido principal.-->
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <!--list-group list-group-flush: list-group crea una lista sin estilos, y list-group-flush 
+              elimina los bordes y márgenes de la lista, dejando solo los elementos de la lista.-->
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <!--list-group-item: Define un elemento de la lista en la lista sin estilos. En este caso, 
+              se utiliza para elementos de la lista dentro de la tarjeta.-->
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver más</a>
+            <a href="#" class="card-link">Comprar</a>
+            <!--card-link: Estiliza un enlace dentro de la tarjeta para que se vea apropiado en ese contexto. 
+              Se utiliza aquí para los enlaces "Ver más" y "Comprar" dentro del cuerpo de la tarjeta.-->
+          </div>
+        </div>
+      </div>
+      <!-- segundo -->
+      <div class="col-sm-4 col-12 px-5 mb-4">
+
+        <div class="card">
+          <img src="assets/img/desayunos.jpg" class="card-img-top" alt="desayunos" />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Desayunos</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <!-- tercera -->
+      <div class="col-sm-4 col-12 px-5 mb-4">
+        <div class="card">
+          <img src="assets/img/bebidas.jpg" class="card-img-top" alt="bebidas" />          
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Bebidas</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row py-sm-5"> <!-- La clase “py-sm-5” define el padding superior e inferior de la fila en dispositivos pequeños   -->
+      <!-- cuarta -->
+      <div class="col-sm-4 col-12 px-5 mb-4"><!--  se utiliza para definir el ancho de una columna . La clase “col-sm-4” define el ancho de la columna en dispositivos pequeños, mientras que la clase “col-12” define el ancho de la columna en dispositivos grandes. La clase “px-5” define el padding horizontal de la columna y la clase “mb-4” define el margen inferior de la columna -->
+
+        <div class="card">
+          <img src="assets/img/verduras.jpg" class="card-img-top" alt="colaciones" />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Verduras</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <!-- quinto -->
+      <div class="col-sm-4 col-12 px-5 mb-4">
+        <div class="card">
+          <img src="assets/img/dulces.jpg" class="card-img-top" alt="desayunos" />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Dulces</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <!-- sexto -->
+      <div class="col-sm-4 col-12 px-5 mb-4">
+        <div class="card">
+          <img src="assets/img/empanadas.jpg" class="card-img-top" alt="bebidas" />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Empanadas</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Ver más</a>
+            <a href="#" class="card-link">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TARJETAS -->
+
+  <!-- La clase “container-fluid” define un contenedor que ocupa todo el ancho de la pantalla, 
+    mientras que las clases “d-none d-sm-none d-md-block” definen que el contenedor no se muestra en dispositivos pequeños 
+     se muestra en dispositivos medianos y grandes. 
+     La clase “py-5” define el relleno superior e inferior del contenedor -->
+  
+  <section class="container-fluid d-none d-sm-none d-md-block py-5" id="Ahora-aceptamos">
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          <h2 class="text-light fw-bold display-5">
+            <!-- display-5 define tamaño de los encabezados. -->
+            Ahora aceptamos
+          </h2>
+        </div>
+        <div class="col-7"><!--  La clase “col-7” define una columna que ocupa 7 de las 12 columnas disponibles en la cuadrícula de Bootstrap -->
+          <div class="row text-light"> <!-- Las filas se utilizan para agrupar columnas y asegurarse de que estén alineadas correctamente. La clase “py-sm-5” define el relleno superior e inferior de la fila en dispositivos pequeños  -->
+            <div class="col-2">
+              <!-- Iconos --> 
+              <i class="fab fa-cc-mastercard fa-4x"></i>
+            </div>
+            <div class="col-2">
+              <i class="fab fa-cc-visa fa-4x"></i>
+            </div>
+            <div class="col-2">
+              <i class="fab fa-cc-amex fa-4x"></i>
+            </div>
+            <div class="col-2">
+              <i class="fab fa-cc-diners-club fa-4x"></i>
+            </div>
+            <div class="col-2">
+              <i class="fab fa-cc-paypal fa-4x"></i>
+            </div>
+            <div class="col-2">
+              <i class="fab fa-cc-discover fa-4x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Pie de página -->
+   <!--  py-5 y px5= es el padding tanto arriba y bajo.  -->
+  <footer class="py-5 px-5">
+    <img src="assets/img/logo-footer.png" class="mx-auto d-block" alt="suricata" />
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <!-- Enlace Bootstrap en tu página web. -->
+</body>
+
+</html>

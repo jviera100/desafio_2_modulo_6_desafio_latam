@@ -1,0 +1,76 @@
+/* Reset de estilos para todos los elementos */
+* {
+  margin: 0; /*margen*/
+  padding: 0; /*espacio entre elementos*/
+  border: 0;    /*borde*/
+}
+body {
+  font-family: 'Cabin', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+#fuente {  
+  font-family: 'Lobster', sans-serif;
+}
+#menu {
+  background-color: #373a3c
+  color(from #dddddd)
+ 
+}
+/* Estilo para la sección de Descripción */
+.description {
+  display: flex; /*alineacion flexible*/
+  flex-wrap: wrap; /* Permitir envolver a la siguiente línea */
+  align-items: center; /* Centrar verticalmente los elementos */
+  margin-top: 20px; /*margen superior*/
+  font-size: 20px; /*tamaño letra*/
+  max-width: 100%; /* Ajuste al ancho máximo */
+  padding: 50px; /*espacio entre elementos*/
+  box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+}
+
+.description ul {
+  flex: 1; /* Ocupar todo el espacio disponible en la línea */
+  margin-right: 20px; /* Espaciado entre la descripción y la imagen */
+}
+
+.description li img {
+  width: 100%; /* La imagen ocupará el 100% del contenedor */
+  max-width: 400px; /* Establecer un ancho máximo para la imagen */
+  height: auto; /*altura automatica*/
+  box-sizing: border-box; /* Evitar que el padding afecte el ancho total */
+}
+/* Cambiar el diseño de las barras por puntos en el carrusel en Bootstrap 5 */
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 8px; /* Ajusta el tamaño de los puntos según tu preferencia */
+  height: 8px;
+  background-color: #fff;
+  border: 1px solid #000;
+  opacity: 0.5; /* Opacidad de los puntos inactivos */
+  transition: opacity 0.6s ease;
+}
+
+.carousel-indicators {
+  top: auto; /* Elimina la propiedad 'top' para que los puntos estén alineados en la parte inferior */
+  bottom: 10px; /* Ajusta la posición vertical de los puntos según tu preferencia */
+  left: 50%; /* Centra los puntos horizontalmente */
+  transform: translateX(-50%); /* Centra los puntos horizontalmente */
+}
+
+.carousel-indicators .active {
+  width: 10px; /* Ajusta el tamaño del punto activo según tu preferencia */
+  height: 10px;
+  background-color: #000;
+  opacity: 1; /* Punto activo completamente visible */
+}
+
+#form {
+  background-color: #dc3545
+  color(srgb #dddddd)
+}
+footer {
+  background-color: #373a3c
+  color(srgb #dddddd)
+}
+
