@@ -62,7 +62,7 @@ function renderizarContenidoModal(productosEnCarrito) {
       </div>`;
     });
   } else {
-    elementoProducto += "No hay productos en el carrito ☹";
+    elementoProducto += "No hay productos en el carrito 🙁";
   }
   return elementoProducto;
 }
