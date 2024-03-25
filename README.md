@@ -1,5 +1,6 @@
 # Código Solución Desafío Mercado web
 
+🚀[desafio_2_modulo_6_desafio_latam](https://desafio-2-modulo-6-desafio-latam.onrender.com)
 El presente repositorio contiene el código solución al segundo desafío del módulo 6 llamado **Desarrollo de aplicaciones web con Node y Express** de la beca **Desarrollo de aplicaciones Full Stack Javascript Trainee** dictada por Desafío Latam.
 
 Las tecnologías utilizadas fueron las siguientes:
